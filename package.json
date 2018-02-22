@@ -1,0 +1,22 @@
+{
+  "name": "calculator-the-game-solver",
+  "version": "1.0.0",
+  "description": "solve Calculator the game",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JieJiSS/Calculator-the-game-solver.git"
+  },
+  "author": "JieJiSS",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/JieJiSS/Calculator-the-game-solver/issues"
+  },
+  "homepage": "https://github.com/JieJiSS/Calculator-the-game-solver#readme",
+  "dependencies": {
+    "promptly": "^3.0.3"
+  }
+}
