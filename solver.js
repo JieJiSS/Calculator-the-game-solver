@@ -43,14 +43,16 @@ async function main(config) { // Script By JieJiSS
             dbg_return.push(str);
         };
     } else {
-        var init = Number(await prompt('Initial value:')),
-            goal = Number(await prompt('Target value:')),
-            move = Number(await prompt('Number of steps:'));
-        var strarr = (await prompt('Texts on buttons (use space to seperate):')).split(/[\s\,]+/);
-        var door = await prompt('Portal (optional):', {
-            retry: false,
-            default: ""
-        });
+        try {
+            var init = Number(await prompt('Initial value:')),
+                goal = Number(await prompt('Target value:')),
+                move = Number(await prompt('Number of steps:'));
+            var strarr = (await prompt('Texts on buttons (use space to seperate):')).split(/[\s\,]+/);
+            var door = await prompt('Portal (optional):', {
+                retry: false,
+                default: ""
+            });
+        } catch (e) { /* do nothing */ }
     }
     var positions;
 
