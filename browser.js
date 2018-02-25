@@ -13,7 +13,7 @@ var key_re = [
     /^\+\/-$/,
     /^shift>$/i,
     /^<shift$/i,
-    /^x(\d)$/,
+    /^x\^?(\d)$/,
     /^(del|delete|<<)$/i,
     /^sum$/i,
     /^mirror$/i,
